@@ -21,10 +21,10 @@ function make_script () {
     echo "done $2"
 }
 
-function sed_replace() {
-    SANITIZED=$(echo $2 | sed 's/\//\\\//g')
-    
-    echo "s/$1/$SANITIZED/g"
+# $1 flag to be replaced
+# $2 content to replace flag
+function sed_replace() {    
+    echo "s|$1|$2|g"
 }
 
 make_script \
