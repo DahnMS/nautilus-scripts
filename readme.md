@@ -1,5 +1,5 @@
 # DESCRIPTION
-Create parameterizeds scripts to use with nautilus context menu
+Create parameterizeds scripts to use in nautilus context menu
 
 ## INSTALATION
 - Add or remove scripts you need in setup.sh
